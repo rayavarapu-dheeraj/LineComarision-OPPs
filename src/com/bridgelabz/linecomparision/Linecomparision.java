@@ -7,7 +7,8 @@ public class Linecomparision extends LineUtility {
 	static final Scanner SC = new Scanner(System.in);
 
 	public static void main(String[] args) {
-
+		
+		
 		System.out.println("welcome to line comparision using oops concepts");
 		System.out.print("Enter the value of (x1,y1)= ");
 		int x1 = SC.nextInt();
@@ -37,7 +38,7 @@ class LineUtility {
 		System.out.println("Length of Line 2 = " + lengthLine2);
 		Integer num1 = new Integer((int) lengthLine1);
 		Integer num2 = new Integer((int) lengthLine2);
-		System.out.println("true if equal / false if not equal : \n" + num1.equals(num2));
+		System.out.println(" 0 if equlal 1 if line 1 is greater -1 if line 2 is greater : \n"+num1.compareTo(num2));
 
 	}
 }
